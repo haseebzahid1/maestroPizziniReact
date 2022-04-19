@@ -5,7 +5,7 @@ const Header = () => {
   return (
       
     <div className='banner'>
-        <Navbar />
+        {/* <Navbar /> */}
       <div className="banner__content">
         <div className="container">
           <div className="banner__text">

@@ -13,11 +13,11 @@ function App() {
   return (
     <div>
     <Header />  
-    <About />
+    {/* <About />
     <Shop />
     <Menu />
     <Count />
-    <PriceContainer />
+    <PriceContainer /> */}
     </div>
   ); 
 }
