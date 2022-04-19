@@ -76,7 +76,11 @@ h1,h2,h3,h4{
 }
 
 @media (max-width:1400px){
- 
+
+  .container{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
   .banner__text {
     padding-top: 60px;
     padding-left: 50px;

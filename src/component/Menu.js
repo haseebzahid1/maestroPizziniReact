@@ -9,12 +9,12 @@ const Menu = () => {
           
                 <div className='about-col-2 Menu-2'>
                     <div className='about-right-img'>
-                        <img src='/img/menu-left-img.jpg' />
+                        <img src='/img/menu-left-img.jpg' alt='pic' />
                     </div>
                 </div>
                 <div className='about-col-1'>
                    <div className='about__left-content'>
-                   <h2 className='about__h2'>The Pizza Menu</h2>
+                   <h2 className='about__h2 menu__h2'>The Pizza Menu</h2>
                     <h1 className='about__h1'>CHICAGO<br /> THIN CRUST</h1>
                     {/* <h1 className='about__h1 about-h1-mt'></h1> */}
                     <p className='about-p'>

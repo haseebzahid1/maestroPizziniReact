@@ -43,3 +43,21 @@
     text-transform: uppercase;
     display: inline-block;
   }
+  @media(max-width:576px){
+    .shop-content{
+      height: 337px;
+    }
+    .shop__h2 {
+      font-size: 21px;
+      line-height: 35px;
+    }
+    .shop__h1 {
+      font-size: 31px;
+      line-height: 34px;
+      margin-top: 12px;
+      margin-bottom: 15px;
+    }
+    .shop__btn{
+      margin-top: 24px;
+    }
+  }

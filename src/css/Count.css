@@ -28,3 +28,22 @@
     color: #8b8b8b;
     text-transform: capitalize;
 }
+
+@media(max-width:768px){
+    .counter__row{
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .counter{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .counter-h1{
+        font-size: 45px;
+        line-height: 45px;
+    }
+    .counter__col-3:not(:first-child){
+        margin-top: 20px;
+    }
+}
