@@ -1,38 +1,96 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  background: url("../public/img/about-bg.jpg");
+  /* height: 450px; */
+  background-attachment: fixed;
+  background-size: cover;
+  object-fit: cover;
+}
+h1,h2,h3,h4{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.banner {
+  width: 100%;
+  height: 100vh;
+  background: url("../public/img/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.banner__content {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  height: 100vh;
+  color: #fff;
+}
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.banner__text {
+  max-width: 550px;
+}
+.banner__text h3 {
+  font-size: 50px;
+}
+.banner__text h1 {
+  font-size: 80px;
+  line-height: 80px;
+  font-weight: 900;
+  margin-top: 20px;
+}
+.banner__text p {
+  font-size: 24px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+.banner__btn {
+  margin-top: 35px;
 }
 
-.App-link {
-  color: #61dafb;
+.banner-btn-a {
+  text-decoration: none;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-weight: 700;
+  border-radius: 30px;
+  font-size: 12px;
+  padding: 20px 40px;
+  transition:  all 0.3s ease;
+  background: rgb(255, 69, 79);
+  display: inline-block;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.banner-btn-a:hover{
+  background: rgb(255, 43, 53);
+}
+
+@media (max-width:1400px){
+  .banner__text {
+    padding-top: 60px;
   }
-  to {
-    transform: rotate(360deg);
+  .banner__text h3 {
+      font-size: 38px;
+  }
+  .banner__text h1 {
+    font-size: 59px;
+    line-height: 59px;
+    margin-top: 15px;
+  }
+  .banner__text p {
+    font-size: 19px;
+  }
+  .banner-btn-a {
+    padding: 14px 35px;
   }
 }
