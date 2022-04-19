@@ -6,6 +6,8 @@ import About from "./component/About";
 import Shop from "./component/Shop";
 import Menu from "./component/Menu";
 import Count from "./component/Count";
+import PriceContainer from "./component/PriceContainer";
+
 
 function App() {
   return (
@@ -15,6 +17,7 @@ function App() {
     <Shop />
     <Menu />
     <Count />
+    <PriceContainer />
     </div>
   ); 
 }

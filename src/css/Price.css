@@ -1,0 +1,38 @@
+.priceContainer{
+    background-color: #fff;
+}
+.priceContainer__row{
+    display: flex;
+    justify-content: space-between;
+}
+.price {
+    padding: 20px 0;
+    text-align: center;
+    /* background-color: #fff; */
+    width: 100%;
+    max-width: 32.9%;
+  }
+  .price__img {
+    width: 100%;
+  }
+  
+  .price__img img {
+    width: 250px;
+  }
+  
+  .price__heading {
+    margin-top: 20px;
+    font-size: 25px;
+  }
+  .price__text {
+    margin-top: 15px;
+    color: #888888;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 29px;
+  }
+  
+  .price_rs {
+    font-size: 30px;
+    margin-top: 15px;
+  }
